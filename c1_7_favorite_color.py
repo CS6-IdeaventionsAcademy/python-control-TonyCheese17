@@ -37,7 +37,7 @@ guess = input("What is your guess: ")
 guess = guess.lower()
 
 while guess != color:
-    print("You got it wrong.")
+    print("You got it wrong. Guess again!")
     guess = input("What is your guess: ")
     guess = guess.lower()
 print("Good job! You got it right.")
