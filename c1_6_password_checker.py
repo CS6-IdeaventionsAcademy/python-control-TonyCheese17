@@ -4,6 +4,9 @@
 # 6 Password Checker
 import time
 
+#RCH: Please have this prompt for both a username and password.  The password should only
+# be requested if the username is correct.
+
 print('booting',end='')
 time.sleep(0.3)
 print(".",end='')
